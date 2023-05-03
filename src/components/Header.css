@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #08c;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1160px;
+    min-width: 1100px;
+    font-weight: bold;
+    /* background-color: aqua; */
+}
+
+.navtop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 11px;
+    padding: 7px 0px;
+    margin: 7px 0px;
+
+}
+
+.distnav {
+    display: flex;
+    flex-direction: row;
+}
+
+.minnav {
+    display: flex;
+    flex-direction: row;
+}
+
+.minnav>span {
+    padding-left: 10px;
+    color: #bde1f5;
+}
+
+.separator {
+    border-left: 2px solid #0e95d8;
+    margin: 0 15px;
+    height: 20px;
+}
+
+.lang {
+    display: flex;
+    flex-direction: row;
+}
+
+.hicon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hicon {
+    text-decoration: none;
+    color: #bde1f5;
+}
+
+.hicon>img {
+    height: 14px;
+    width: auto;
+}
+
+.parent-element {
+    position: relative;
+    transition: 1s linear;
+
+}
+
+.parent-element>button {
+    border: none;
+    color: none !important;
+    background-color: #08c;
+}
+
+.dropdown-menu {
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.dropdown-menu>ul {
+
+    text-decoration: none;
+    list-style-type: none;
+    background: white;
+    padding: 5px;
+    color: black !important;
+
+}
